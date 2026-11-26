@@ -1,0 +1,247 @@
+{
+  "appTitle": "Water Sort",
+  "homeSubtitle": "一款舒適的顏色分類遊戲",
+  "homeLevelPill": "第 {level} 關",
+  "@homeLevelPill": {
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "startGame": "開始遊戲",
+  "continueGame": "繼續",
+  "gameModes": "遊戲模式",
+  "customization": "個人化",
+  "howToPlay": "玩法說明",
+  "settings": "設定",
+  "gameModesTitle": "遊戲模式",
+  "selectLevel": "選擇關卡",
+  "randomPuzzle": "隨機謎題",
+  "multiplayer": "多人遊戲",
+  "tubeCapacity": "試管容量",
+  "playPuzzle": "開始謎題",
+  "selectProfileTitle": "選擇檔案",
+  "createNewProfile": "+ 建立新檔案",
+  "createProfileTitle": "建立檔案",
+  "enterProfileName": "輸入檔案名稱",
+  "selectAvatarEmoji": "選擇頭像表情",
+  "createUpper": "建立",
+  "editProfileTitle": "編輯檔案",
+  "saveChanges": "儲存變更",
+  "levelsTitle": "關卡",
+  "howToPlayTitle": "玩法說明",
+  "howToPlayStep": "第 {stepNumber} 步",
+  "@howToPlayStep": {
+    "placeholders": {
+      "stepNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "howToPlayStep1Title": "選擇試管",
+  "howToPlayStep1Desc": "點擊任意試管以選取它。試管會浮起並發光，表示已選取。",
+  "howToPlayStep2Title": "倒入相同顏色",
+  "howToPlayStep2Desc": "點擊另一支試管進行倒入。水只能倒在相同顏色上，或倒入空試管中。",
+  "howToPlayStep3Title": "分類所有顏色",
+  "howToPlayStep3Desc": "整理所有水段，使每支試管只包含一種顏色。",
+  "howToPlayStep4Title": "老少皆宜",
+  "howToPlayStep4Desc": "使用每個水塊內獨特的符號，輕鬆配對顏色，無需費眼。",
+  "gotIt": "知道了！",
+  "multiplayerTitle": "多人遊戲",
+  "createRoom": "建立房間",
+  "diffEasy": "簡單",
+  "diffMedium": "中等",
+  "diffHard": "困難",
+  "diffExpert": "專家",
+  "diffExtreme": "極限",
+  "roomCode": "房間代碼",
+  "roomCodeCopied": "房間代碼已複製到剪貼簿",
+  "playThisPuzzle": "開始此謎題",
+  "joinRoom": "加入房間",
+  "enterCodeHint": "輸入代碼（例如 {code}）",
+  "@enterCodeHint": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "joinPuzzle": "加入謎題",
+  "invalidRoomCode": "房間代碼無效。請檢查後重試。",
+  "levelSolvable": "關卡可解",
+  "levelNotSolvable": "關卡無解",
+  "random": "隨機",
+  "levelTitle": "第 {levelNumber} 關",
+  "@levelTitle": {
+    "placeholders": {
+      "levelNumber": {
+        "type": "int"
+      }
+    }
+  },
+  "retry": "重試",
+  "undo": "復原",
+  "moves": "步數",
+  "check": "檢查",
+  "hint": "提示",
+  "noSolutionPossible": "目前狀態無解。試試復原一些步驟！",
+  "levelComplete": "關卡完成！",
+  "levelCompleteRandomDesc": "你用 {moveCount} 步完成了這個 {difficulty} 謎題。",
+  "@levelCompleteRandomDesc": {
+    "placeholders": {
+      "difficulty": {
+        "type": "String"
+      },
+      "moveCount": {
+        "type": "int"
+      }
+    }
+  },
+  "levelCompleteDesc": "你用 {moveCount} 步完成了第 {levelNumber} 關。",
+  "@levelCompleteDesc": {
+    "placeholders": {
+      "levelNumber": {
+        "type": "int"
+      },
+      "moveCount": {
+        "type": "int"
+      }
+    }
+  },
+  "playAgain": "再玩一次",
+  "nextLevel": "下一關",
+  "home": "主頁",
+  "buyMeACoffeeWithEmoji": "請我喝咖啡 ☕",
+  "timesUp": "時間到！",
+  "timesUpDesc": "你已沒有足夠時間完成顏色分類。",
+  "tryAgain": "再試一次",
+  "restartLevel": "重新開始關卡？",
+  "restartLevelDesc": "確定要重新開始目前關卡嗎？目前進度將遺失。",
+  "restart": "重新開始",
+  "cancel": "取消",
+  "cancelUpper": "取消",
+  "backupExportedSuccess": "備份匯出成功。",
+  "backupExportFailed": "備份匯出失敗。",
+  "backupImportedSuccess": "備份匯入成功。",
+  "backupImportInvalid": "備份檔案格式無效。",
+  "backupImportFailed": "備份匯入失敗。",
+  "resetProgressTitle": "重設進度？",
+  "resetProgressDesc": "這將清除此檔案的所有已通關關卡、星級和已儲存狀態。此操作無法復原。",
+  "resetUpper": "重設",
+  "progressResetSuccess": "進度已重設。",
+  "settingsTitle": "設定",
+  "sectionGameplayRules": "玩法與規則",
+  "settingTimerTitle": "遊戲計時器",
+  "settingTimerDesc": "為關卡加入倒數計時以增加挑戰，或關閉以輕鬆遊玩。",
+  "settingHintHelperTitle": "提示助手",
+  "settingHintHelperDesc": "在遊戲過程中顯示提示按鈕，以標示下一步最佳移動。",
+  "settingCheckButtonTitle": "檢查按鈕",
+  "settingCheckButtonDesc": "將提示按鈕替換為檢查按鈕，透過工具提示告知關卡是否可解，而不提供提示。",
+  "settingSuperHardTitle": "超級困難難度",
+  "settingSuperHardDesc": "僅顯示最頂層顏色；下方所有隱藏液體段均為純白色。",
+  "settingDecrementMovesTitle": "復原時減少步數",
+  "settingDecrementMovesDesc": "復原一步時減少步數計數器。",
+  "sectionAudioAnimations": "音訊與動畫",
+  "settingSoundEffectsTitle": "音效",
+  "settingSoundEffectsDesc": "液體倒入聲、試管完成提示音和勝利號角。",
+  "settingTurnOffAnimationsTitle": "關閉動畫",
+  "settingTurnOffAnimationsDesc": "即時遊戲模式。停用倒入物理效果、漣漪、波浪和所有音效。",
+  "sectionBackupRestore": "備份與還原",
+  "actionExportBackupTitle": "匯出備份",
+  "actionExportBackupDesc": "儲存你的進度",
+  "actionImportBackupTitle": "匯入備份",
+  "actionImportBackupDesc": "還原你的進度",
+  "sectionSupportAbout": "支援與關於",
+  "actionReportBugsTitle": "回報問題 / 建議",
+  "actionReportBugsDesc": "開啟 GitHub 提交問題回報或建議新功能。",
+  "actionBuyCoffeeTitle": "請我喝咖啡",
+  "actionBuyCoffeeDesc": "支持獨立開發及未來遊戲更新。",
+  "actionResetAllProgressTitle": "重設所有進度",
+  "actionResetAllProgressDesc": "清除所有已通關記錄、星級和已儲存狀態。",
+  "themeMidnight": "午夜",
+  "themeCyberpunk": "賽博龐克",
+  "themeForest": "森林",
+  "themeSpace": "太空",
+  "themeRetro": "復古",
+  "themeSunset": "日落",
+  "themeNeon": "霓虹",
+  "themeOcean": "海洋",
+  "themeVolcano": "火山",
+  "themeAurora": "極光",
+  "themeLavender": "薰衣草",
+  "themeDesert": "沙漠",
+  "themeGlitch": "故障",
+  "themeSakura": "櫻花",
+  "themeMonochrome": "單色",
+  "themeAquamarine": "海藍寶石",
+  "themeSolar": "日光",
+  "customizationTitle": "個人化",
+  "themePalettesTitle": "主題配色",
+  "customizeLiquidColorsTitle": "自訂液體顏色",
+  "jsonUpper": "JSON",
+  "liquidColorsResetSuccess": "液體顏色已重設為預設。",
+  "resetAllUpper": "全部重設",
+  "visualsTitle": "視覺效果",
+  "frostSolvedTubesTitle": "已完成試管結霜",
+  "frostSolvedTubesDesc": "為已完成的試管加入冰冷玻璃結霜效果，便於專注於未完成的試管。",
+  "tubeThicknessTitle": "試管粗細",
+  "tubeThicknessDesc": "選擇螢幕上試管的寬度或細度。",
+  "tubeThicknessSlim": "細",
+  "tubeThicknessMedium": "中",
+  "tubeThicknessWide": "寬",
+  "tubeThicknessAdaptive": "自適應",
+  "customBackgroundTitle": "自訂背景圖片",
+  "customBackgroundDesc": "從裝置設定自訂圖片作為遊戲背景。",
+  "customBackgroundSetSuccess": "自訂背景圖片設定成功。",
+  "changeImage": "更換圖片",
+  "setBackgroundImage": "設定背景圖片",
+  "customBackgroundRemovedSuccess": "自訂背景圖片已移除。",
+  "customizeColorTitle": "自訂顏色",
+  "hexNumber": "HEX #",
+  "iconColorTitle": "圖示顏色",
+  "whiteUpper": "白色",
+  "blackUpper": "黑色",
+  "hslAdjustmentTitle": "HSL 調整",
+  "palettePresetsTitle": "配色預設",
+  "defaultUpper": "預設",
+  "applyUpper": "套用",
+  "themeJsonTitle": "主題 JSON",
+  "themeJsonCopiedSuccess": "主題 JSON 已複製到剪貼簿。",
+  "themeJsonDesc": "複製、貼上或編輯 16 種液體顏色，格式為十六進位代碼的 JSON 陣列。",
+  "jsonMustBe16Hex": "JSON 必須是包含 16 個十六進位顏色的清單。",
+  "jsonItemMustBeHex": "每個顏色項目必須是十六進位字串。",
+  "themeAppliedSuccess": "主題套用成功。",
+  "invalidJsonSyntax": "JSON 語法無效。",
+  "mustContainExactColors": "必須恰好包含 {count} 種顏色（找到 {found} 種）。",
+  "@mustContainExactColors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "found": {
+        "type": "int"
+      }
+    }
+  },
+  "invalidHexColor": "無效的十六進位顏色：{item}",
+  "@invalidHexColor": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "sectionLanguage": "語言",
+  "settingLanguageTitle": "語言",
+  "settingLanguageDesc": "選擇你偏好的應用程式語言或跟隨系統。",
+  "localeSystem": "系統",
+  "localeSystemDesc": "跟隨裝置語言",
+  "chooseLanguageTitle": "選擇語言",
+  "localeEn": "英文",
+  "localeDe": "德文",
+  "localeZh": "簡體中文",
+  "localeZhHant": "繁體中文",
+  "followTwitter": "在 Twitter 上追蹤我",
+  "followMastodon": "在 Mastodon 上追蹤我"
+}
